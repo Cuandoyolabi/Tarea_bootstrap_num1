@@ -5,10 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
+    <div class="row bg-black header">
+        <h1 class="text-light header__title">Start Bootstrap</h1>
+    </div>
+    <main class="main__container">
+        <div class="row first__row">
+            <div class="card mb-3  text-center first__card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title first__card__title">A warn<br> welcome!</h5>
+                  <p class="card-text first__card__text" >Bootstrap utility classes are used to create this jumbotron since 
+                    the old component has been removed from the framework. Why create custom CSS 
+                    when you can use utilities?</p>
+                  <a href="#" class="btn btn-primary">Call to action</a>
+                </div>
+              </div>
+        </div>
 
-    
+        <div class="row second__row d-flex justify-content-center align-items-center">
+            <div class="personalized__card ">
+                <div class="personalized__card__absolute bg-primary">
+                    <i class="bi bi-archive personalized__card__icon"></i>
+                </div>
+                    <h2 class="personalized__card__title">Fresh new layout</h2>
+                    <p class="personalized__card__text">With Bootstrap 5, we've created a fresh new layaout for this template!</p>
+            </div>
+        </div>
+
+    </main>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
