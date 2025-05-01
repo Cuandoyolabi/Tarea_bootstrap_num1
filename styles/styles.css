@@ -6,6 +6,7 @@
 
 .header{
     height: 50px;
+    background-color: rgb(27, 27, 27);
 }
 
 .header__title{
@@ -19,24 +20,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    border: 5px solid rgb(255, 0, 0);
 }
 
 .first__card{
+    width: 80%;
     height: 420px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: rgba(215, 220, 220, 0.285);
 }
 
 .first__card__title{
     font-weight: 700;
     font-size: 30px;
+    margin-top: 20px;
 }
 
 .first__card__text{
     font-size: 20px;
+}
+
+.first__card__btn{
+    width: 160px;
+    height: 40px;
+    margin-top: 13px;
 }
 
 .second__row{
@@ -46,26 +52,48 @@
 
 .personalized__card{
     width: 80%;
-    height: 200px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     border-radius: 7px;
     position: relative;
     background-color: rgb(230, 237, 247);
 }
 
 .personalized__card__absolute{
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     position: absolute;
     top: -30px;
     left: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 9px;
-    
+    border-radius: 9px;    
 }
 
 .personalized__card__icon{
     font-size: 39px;
     color: white;
+}
+
+.personalized__card__title{
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.row__footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+}
+
+.footer__copyright{
+    font-size: 18px;
+    font-weight: 300;
 }
